@@ -1,0 +1,16 @@
+{
+    "name": "allex/hexlet-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Allex\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Trend Zero",
+            "email": "veter_liliputov@citydom.ru"
+        }
+    ],
+    "require": {}
+}
