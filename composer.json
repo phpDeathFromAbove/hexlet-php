@@ -2,6 +2,7 @@
     "name": "allex/hexlet-php",
     "type": "project",
     "autoload": {
+	"files": ["src/Runner.php"],
         "psr-4": {
             "Allex\\HexletPhp\\": "src/"
         }
@@ -12,5 +13,14 @@
             "email": "veter_liliputov@citydom.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.28"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+	"phpcs": "phpcs"
+}
+
 }
